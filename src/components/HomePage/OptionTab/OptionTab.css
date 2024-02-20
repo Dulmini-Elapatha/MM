@@ -1,0 +1,31 @@
+.optionbox{
+    margin: 0px 46px 0px 0px;
+    height: 345px;
+    width: 327px;
+    background-image: linear-gradient( #2dfc2a, #b1ccb6);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(1, 88, 1);
+}
+
+.opimage{
+    background-image: url(optionBox.png);
+    background-repeat: no-repeat;
+
+}
+
+.optionbox:hover{
+    background-image: linear-gradient( #2dfc2a, #6e8372); 
+}
+
+.optiontext{
+padding:270px 0px 0px 10px
+}
+
+.optiontext h5{
+    font-family: Inter, Segoe WPC, Segoe UI, sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+

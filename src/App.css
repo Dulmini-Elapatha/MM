@@ -1,0 +1,13 @@
+body{
+    background-image: linear-gradient(to right, #76FA73, #ABD8B4);
+    background-size: cover;
+}
+
+.Optionbox{
+    display: flex;
+    margin: 120px 0px 0px 37px;
+}
+.quesbtn{
+    margin: 30px 0px 0px 25px;
+
+}

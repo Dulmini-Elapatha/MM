@@ -1,0 +1,8 @@
+.questButton{
+    color: white;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;   
+}   

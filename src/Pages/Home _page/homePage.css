@@ -1,0 +1,11 @@
+.homeText{
+    font-family: century-gothic, sans-serif;
+    width: 938px;
+    height: 440px;
+    background-color: aliceblue;
+    font-size:35px;
+    letter-spacing: 2px;
+    line-height:1.5;
+    /*padding: 53px 0px 0px 30px;*/
+    margin: 40px 0px 15px 25px;
+}    
