@@ -2,10 +2,29 @@
     font-family: century-gothic, sans-serif;
     width: 938px;
     height: 440px;
-    background-color: aliceblue;
     font-size:35px;
     letter-spacing: 2px;
     line-height:1.5;
     /*padding: 53px 0px 0px 30px;*/
     margin: 40px 0px 15px 25px;
-}    
+}
+
+.Optionbox{
+    display: flex;
+    margin: 120px 0px 0px 37px;
+}
+.quesbtn{
+    margin: 30px 0px 0px 25px;
+
+}
+
+.homeimg01{
+    float: right;
+    background-image: url(/src/img/Homeimg01.png);
+    background-color: #0e1a11;
+    width:100px;
+    height:100px;
+    
+
+
+}
