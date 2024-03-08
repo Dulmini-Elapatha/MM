@@ -1,14 +1,11 @@
-
 import './App.css';
-import HomePage from './Pages/Home _page/HomePage';
 
-import ResultBox from './components/HomePage/ResultBox/ResultBox';
-
+import Home from './Pages/Home _page/HomePage.js';
 
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+      <Home /> 
     </div>
   );
 }

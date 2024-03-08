@@ -21,30 +21,26 @@ function Navigation() {
         setSidebarActive(!sidebarActive);
     };
 
-    const closeSidebar = (e) => {
-        if (!e.target.classList.contains("sidebarOpen") && !e.target.classList.contains("menu")) {
-            setSidebarActive(false);
-        }
-    };
+
 
     return (
         <nav>
             <div className="nav-bar">
                 <i className='bx bx-menu sidebarOpen' onClick={toggleSidebar}></i>
-                <span className="logo navLogo"><a href="#">MindMate</a></span>
+                <span className="logo navLogo"><a href="#mindmate">MindMate</a></span>
 
                 <div className="menu">
                     <div className="logo-toggle">
-                        <span className="logo"><a href="#">CodingLab</a></span>
+                        <span className="logo"><a href="#coding">CodingLab</a></span>
                         <i className='bx bx-x siderbarClose' onClick={toggleSidebar}></i>
                     </div>
 
                     <ul className="nav-links">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Questionnaire</a></li>
-                        <li><a href="#">chatbot</a></li>
-                        <li><a href="#">Find a Friend</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#question">Questionnaire</a></li>
+                        <li><a href="#chatbox">chatbot</a></li>
+                        <li><a href="#find">Find a Friend</a></li>
                     </ul>
                 </div>
 
