@@ -1,8 +1,8 @@
 import React from 'react'
-import Navigation from 'C:/IIT/IIT/SDGP/My works/Github/Mindmate/MM/src/components/HomePage/Navigation Bar/Navigation_bar';
-import Questionnaire from 'C:/IIT/IIT/SDGP/My works/Github/Mindmate/MM/src/components/HomePage/Questionnaire/Questionnaire';
-import OptionTab from 'C:/IIT/IIT/SDGP/My works/Github/Mindmate/MM/src/components/HomePage/OptionTab/OptionTab';
-import ResultBox from 'C:/IIT/IIT/SDGP/My works/Github/Mindmate/MM/src/components/HomePage/ResultBox/ResultBox';
+import Navigation from '../../components/HomePage/Navigation_Bar/Navigation_bar';
+import Questionnaire from '../../components/HomePage/Questionnaire/Questionnaire';
+import OptionTab from '../../components/HomePage/OptionTab/OptionTab';
+import ResultBox from '../../components/HomePage/ResultBox/ResultBox';
 import './homePage.css'
 <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css"></link>
 
