@@ -1,0 +1,31 @@
+.homeText{
+    font-family: century-gothic, sans-serif;
+    font-size:40px;
+    letter-spacing: 2px;
+    line-height:19px;
+    margin: 10px 0px 0px 25px;
+}
+
+.Htext{
+    letter-spacing: 2px;
+    line-height:53px;
+}
+
+.boxFlex{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+.homeimg01{
+    float: right;
+    background-image: url(../../img/Homeimg01.png);
+    background-color: #0e1a11;
+    width:100px;
+    height:100px;
+}
+
+.qusbtn{
+    margin-left: 25px;
+    margin-top: 13px;
+}
