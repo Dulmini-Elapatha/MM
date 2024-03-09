@@ -3,6 +3,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { /* Headless UI components */ } from '@headlessui/react';
 import { /* Heroicons components */ } from '@heroicons/react/24/outline';
+import Mindmatepng from '../../img/mindmate.png'
 import './Navbar.css';
 
 
@@ -40,8 +41,8 @@ export default function Example() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-8 w-auto"
-                    src="**./img/mindmate.png**"
+                    className="h-8 w-center"
+                    src={Mindmatepng}
                     alt="MindMate_Logo"
                   />
                 </div>

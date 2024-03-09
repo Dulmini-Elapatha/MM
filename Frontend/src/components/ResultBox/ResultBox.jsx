@@ -5,7 +5,7 @@ export default function ResultBox() {
   return (
     <div>
       <dir className="resultBox">
-        <div>
+        <div className="resulttext">
             <h5>Your Result</h5>
         </div>
       </dir>
