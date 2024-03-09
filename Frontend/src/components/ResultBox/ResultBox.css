@@ -1,5 +1,6 @@
 .resultBox{
-    height: 200px;;
+    display:flex;
+    height: 200px;
     width: 500px;
     background-image: linear-gradient( #e7e6f7, #98a4cc);
     border-radius: 10px;
@@ -27,6 +28,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin:80px 0px 0px 5px;
+}
+
+.img02{
+    max-width: 150px;
+    margin-top: 15px;
+    margin-left: 190    px;
 }
 
     
