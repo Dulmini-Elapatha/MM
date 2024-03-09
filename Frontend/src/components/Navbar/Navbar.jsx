@@ -3,7 +3,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { /* Headless UI components */ } from '@headlessui/react';
 import { /* Heroicons components */ } from '@heroicons/react/24/outline';
-import Mindmatepng from '../../img/mindmate.png'
+import Mindmatepng from '../../img/mindmate.svg'
 import './Navbar.css';
 
 

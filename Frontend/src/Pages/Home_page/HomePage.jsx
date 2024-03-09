@@ -4,8 +4,12 @@ import ResultBox from '../../components/ResultBox/ResultBox';
 import Navbar from '../../components/Navbar/Navbar';
 import Button from 'react-bootstrap/Button';
 import img01 from '../../img/homeimgfinal.svg';
+import Chatbotimg from '../../img/pngwing 1.svg'
+import Doctorimg from '../../img/pngwing 2.svg';
+import Friendimg from '../../img/pngwing 3.svg';
 import './homePage.css'
 <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css"></link>
+
 
 export default function Home_page() {
   return (
@@ -29,9 +33,9 @@ export default function Home_page() {
       </div>
     </div>
       <div className="boxFlex">
-        <OptionBox title="Chatbot" />
-        <OptionBox title="Doctor"/>
-        <OptionBox title="Find a Friend"/>
+        <OptionBox title="Chatbot" Opimg={Chatbotimg}/>
+        <OptionBox title="Doctor" Opimg={Doctorimg}/>
+        <OptionBox title="Find a Friend" Opimg={Friendimg}/>
         <div className="ResultBox"><ResultBox/></div>
       </div>
     </div>

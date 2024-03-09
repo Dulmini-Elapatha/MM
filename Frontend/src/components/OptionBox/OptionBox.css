@@ -10,14 +10,11 @@
 }
 
 .opimage{
-    background-image: url(optionBox.png);
     max-width: 70px;
     max-height: 70px;
     background-repeat: no-repeat;
     background-size: cover;
     margin:80px 0px 0px 5px;
-
-
 }
 
 .optionbox:hover{
@@ -25,7 +22,7 @@
 }
 
 .optiontext{
-    padding:80px 0px 0px 5px;
+    padding:13px 0px 0px 5px;
 }
 
 .optiontext h5{
