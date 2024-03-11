@@ -3,14 +3,16 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { /* Headless UI components */ } from '@headlessui/react';
 import { /* Heroicons components */ } from '@heroicons/react/24/outline';
+import HomePage from '../../Pages/Home_page/HomePage.jsx';
+import Chatbot from '../../Pages/Chatbot/Chatbot.jsx';
 import Mindmatepng from '../../img/mindmate.svg'
 import Userimg from '../../img/userimg.svg'
 import './Navbar.css';
 
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'Chatbot', href: '#', current: false },
+  { name: 'Home', href: '/', current: true },
+  { name: 'Chatbot', href: '/chatbot', current: false },
   { name: 'Find a Friend', href: '#', current: false },
   { name: 'Doctor', href: '#', current: false },
   { name: 'About Us', href: '#', current: false },
@@ -20,7 +22,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Navbar() {
   return (
     <Disclosure as="nav" className="bg-custom-nav">
       {({ open }) => (

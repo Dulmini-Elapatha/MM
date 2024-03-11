@@ -1,7 +1,7 @@
 import React from 'react'
 import OptionBox from '../../components/OptionBox/OptionBox';
 import ResultBox from '../../components/ResultBox/ResultBox';
-import Navbar from '../../components/Navbar/Navbar';
+// import Navbar from '../../components/Navbar/Navbar';
 import Button from 'react-bootstrap/Button';
 import img01 from '../../img/homeimgfinal.svg';
 import Chatbotimg from '../../img/pngwing 1.svg'
@@ -14,7 +14,7 @@ import './homePage.css'
 export default function Home_page() {
   return (
     <div>
-    <Navbar/>
+    {/* <Navbar/> */}
     <div>
     <div className="textImgFlex">
     <div>
